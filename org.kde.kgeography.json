@@ -18,18 +18,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/kgeography-24.05.2.tar.xz",
-                    "sha256": "2c9aa3aad230148f0decbaadf36b746bf5a8b5041025da0510cccf9333a57cf3",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kgeography-24.08.0.tar.xz",
+                    "sha256": "9ef775378b9872cd2171cc8a9ba10baec5ed5d11cdce97938dc8b44a92ef6ca2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kgeography-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "47.patch"
                 }
             ]
         }
